@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <mpi.h>
+#include <cuda.h>
 
 // Macro for checking errors in CUDA API calls
 #define cudaErrorCheck(call)                                                              \
